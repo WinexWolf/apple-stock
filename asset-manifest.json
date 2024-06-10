@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/apple-stock/static/css/main.e6c13ad2.css",
-    "main.js": "/apple-stock/static/js/main.998592e1.js",
+    "main.js": "/apple-stock/static/js/main.682ff88a.js",
     "static/js/453.edc423a9.chunk.js": "/apple-stock/static/js/453.edc423a9.chunk.js",
     "static/media/stock-image.png": "/apple-stock/static/media/stock-image.477275797ae0d0723ef6.png",
     "static/media/gsach-logo.png": "/apple-stock/static/media/gsach-logo.3cf075cc64993b450173.png",
     "static/media/morgan-stanley-logo.jpg": "/apple-stock/static/media/morgan-stanley-logo.5482d7523e2c2f83c41b.jpg",
     "index.html": "/apple-stock/index.html",
     "main.e6c13ad2.css.map": "/apple-stock/static/css/main.e6c13ad2.css.map",
-    "main.998592e1.js.map": "/apple-stock/static/js/main.998592e1.js.map",
+    "main.682ff88a.js.map": "/apple-stock/static/js/main.682ff88a.js.map",
     "453.edc423a9.chunk.js.map": "/apple-stock/static/js/453.edc423a9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.998592e1.js"
+    "static/js/main.682ff88a.js"
   ]
 }
