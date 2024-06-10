@@ -1,7 +1,7 @@
 # Stockify - All Things Stock!
 
 ## Application Demo
-[YouTube Link](https://youtu.be/UnMhd5xXISs)
+[Loom Link](https://www.loom.com/share/cfeb1a5a38a443f68930fe158b59b0fc?sid=dd0f0b66-d318-45f1-99aa-255a6d14d4a3)
 
 ## Style Guide
 Font: Helvetica, Roboto
