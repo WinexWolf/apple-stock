@@ -72,7 +72,18 @@ export const tabPanelStyles: { [key: string]: CSSProperties } = {
   panels: {
     width: '100vw',
     justifyContent: 'center',
-  },
+    },
+  dropdown: {
+    width: '100%',
+    height: '5vh',
+    padding:'8px',
+    fontSize: '16px',
+    border: '1px solid #ccc',
+    borderRadius:'4px',
+    boxSizing: 'border-box',
+    backgroundColor: 'white',
+    color: 'black',
+  }
 };
 
 export const headingStyles: CSSProperties = {
@@ -100,7 +111,6 @@ export const mainStyles: CSSProperties = {
 export const chartStyles: CSSProperties = {
   width: '70vw',
   height: '40vh',
-  padding: '0 0 30vh 0',
 };
 
 export const footerStyles: CSSProperties = {
