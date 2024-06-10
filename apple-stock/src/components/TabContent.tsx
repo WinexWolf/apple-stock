@@ -4,7 +4,7 @@ import { tabPanelStyles } from '../styles';
 
 interface TabContentProps {
   labels: { title: string, value: string }[];
-  financialData: any; // Type this according to your financial data structure
+  financialData: any; 
 }
 
 const TabContent: React.FC<TabContentProps> = ({ labels, financialData }) => {
