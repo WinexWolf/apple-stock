@@ -89,12 +89,11 @@ export const tabPanelStyles: { [key: string]: CSSProperties } = {
 export const headingStyles: CSSProperties = {
   display: 'flex',
   justifyContent: 'center',
-  padding: '6vh 0vh 5vh 4vh',
+  padding: '0vh 0vh 5vh 4vh',
   fontSize: '26px',
   fontWeight: '500',
   color: 'white',
   fontFamily: 'Helvetica',
-  marginTop: '10vh',
 };
 
 export const mainStyles: CSSProperties = {
@@ -105,12 +104,12 @@ export const mainStyles: CSSProperties = {
   display: 'flex',
   flexWrap: 'wrap',
   justifyContent: 'center',
-  gap: '20vh',
+  gap: '10vh',
 };
 
 export const chartStyles: CSSProperties = {
-  width: '70vw',
-  height: '40vh',
+  width: '60vw',
+  height: 'auto',
 };
 
 export const footerStyles: CSSProperties = {
