@@ -19,7 +19,19 @@ Stockify displays relevant stock market stats and details for companies includin
 - Material UI
 - Axios
 - Apex Charts
-  
+
+## Data Sources
+
+- https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=5min&apikey={API_KEY}
+- http://127.0.0.1:8000/financials
+
+## How to get rid of the CORS error?
+
+- Add `"proxy": "http://127.0.0.1:8000"` to package.json
+- Run `npm install http-proxy-middleware --save`
+- Create a `setUpProxy.js` like in the project and set the traget URL
+- Update the API_URL to a relative path '/financials' and use axios to get data from the endpoint
+
 ## Getting Started
 
 In the project directory, you can run:
