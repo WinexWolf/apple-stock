@@ -6,6 +6,7 @@ import citiLogo from "../assets/citi-logo.jpg";
 import gsachLogo from "../assets/gsach-logo.png";
 import morganLogo from "../assets/morgan-stanley-logo.jpg";
 import { boxRowStyles, headingStyles } from "../styles";
+import data from "../data/mockfinancials.json";
 
 const Estimates: React.FC = () => {
   const [financialData, setFinancialData] = useState<any | null>(null);
@@ -20,9 +21,16 @@ const Estimates: React.FC = () => {
       }
     };
     fetchData();
+
+    // Use financial data response is unavailable
+    if (!financialData) {
+      setFinancialData(data);
+    }
   }, []);
 
-  if (!financialData) return <div>Loading...</div>;
+  if (!financialData) {
+    return <div>Loading...</div>;
+  }
 
   const analystEstimates = [
     {
