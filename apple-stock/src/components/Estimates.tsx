@@ -29,6 +29,7 @@ const Estimates: React.FC = () => {
   }, []);
 
   if (!financialData) {
+        setFinancialData(data);
     return <div>Loading...</div>;
   }
 

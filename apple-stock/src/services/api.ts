@@ -5,7 +5,7 @@ const API_KEY = 'KHP5W1HQJ4RNBNMQ';
 
 export const fetchStockData = async (ticker: string) => {
   try {
-      const response = await fetch('hhttps://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=5min&apikey=KHP5W1HQJ4RNBNMQ');
+      const response = await fetch('https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=AAPL&interval=5min&apikey=KHP5W1HQJ4RNBNMQ');
       console.log( response.json());
     return response.json();
   } catch (error) {

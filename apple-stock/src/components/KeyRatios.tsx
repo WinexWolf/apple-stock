@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { fetchFinancialData } from "../services/financialsService";
 import TabContent from "./TabContent";
+import data from "../data/mockfinancials.json";
 
 const KeyRatios: React.FC = () => {
   const [financialData, setFinancialData] = useState<any | null>(null);
@@ -15,10 +16,18 @@ const KeyRatios: React.FC = () => {
       }
     };
     fetchData();
+
+     if (!financialData) {
+       setFinancialData(data);
+     }
   }, []);
 
-  if (!financialData) return <div>Loading...</div>;
 
+ if (!financialData) {
+   setFinancialData(data);
+   return <div>Loading...</div>;
+  }
+  
   const labels = [
     { title: "Market Cap", value: "market_ap" },
     { title: "Shares Outstanding", value: "shares_outstanding" },
