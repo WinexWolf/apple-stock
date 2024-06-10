@@ -36,12 +36,19 @@ export const landingPageStyles: { [key: string]: React.CSSProperties } = {
     }
 };
 
+/* export const containerStyles: CSSProperties = {
+  display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'center',
+      backgroundColor: 'black',
+}; */
+
 export const boxRowStyles: CSSProperties = {
   display: 'flex',
   flexWrap: 'wrap',
   justifyContent: 'center',
+      backgroundColor: 'black',
 };
-
 export const boxTitleStyles: CSSProperties = {
     fontSize: '16px',
     fontWeight: '400',
