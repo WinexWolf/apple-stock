@@ -32,15 +32,15 @@ const KeyRatiosAndEstimates: React.FC = () => {
   ];
 
   const labels = [
-    'Market Cap',
-    'Shares Outstanding',
-    'P/E Ratio',
-    'P/S Ratio',
-    'P/B Ratio',
-    'PEG Ratio',
-    'Current Ratio',
-    'Debt to Equity Ratio',
-    'EPS',
+    { title: 'Market Cap', value: 'market_ap' },
+    { title: 'Shares Outstanding', value: 'shares_outstanding' },
+    { title: 'P/E Ratio', value: 'pe_ratio' },
+    { title: 'P/S Ratio', value: 'ps_ratio' },
+    { title: 'P/B Ratio', value: 'pb_ratio' },
+    { title: 'PEG Ratio', value: 'peg_ratio' },
+    { title: 'Current Ratio', value: 'current_ratio' },
+    { title: 'Debt to Equity Ratio', value: 'debt_to_equity_ratio' },
+    { title: 'EPS', value: 'eps' },
   ];
 
   return (
@@ -52,7 +52,7 @@ const KeyRatiosAndEstimates: React.FC = () => {
         ))}
       </div>
       <div>
-        <TabContent labels={labels} />
+        <TabContent labels={labels} financialData={financialData} />
       </div>
     </div>
   );
